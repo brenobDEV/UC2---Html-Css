@@ -9,7 +9,7 @@ header div p {
 
 header div {
     margin-left: 10px;
-    
+
 }
 
 
@@ -74,4 +74,14 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: ;
+    
+    &:hover {
+        color: purple;
+    }
 }
