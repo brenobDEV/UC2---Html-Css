@@ -36,50 +36,48 @@ nav ul {
     border-radius: 10px;
     background-color: white;
     align-items: center;
-    justify-content: center; 
-    position: relative;      
-    min-height: 50px;   
-    ;    
+    justify-content: center;
+    position: relative;
+    min-height: 50px;
+    ;
 }
 
 .Links {
     display: flex;
     list-style: none;
-    gap: 200px;          
-    margin: 0;   
+    gap: 200px;
+    margin: 0;
     padding: 0;
 }
 
 #logo2 {
     max-width: 100px;
-    display: block; 
-    position: absolute; 
-    left: 25px;        
+    display: block;
+    position: absolute;
+    left: 25px;
 }
 
 ul a {
     color: black;
     text-decoration: none;
     font-family: "Kaushan Script", cursive;
-    display: inline-block; 
+    display: inline-block;
     transition: 1s;
-    font-size: 16px;     
+    font-size: 16px;
+
+    &:hover {
+        color: rgb(143, 49, 143);
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 1px 60px;
+        background-color: rgba(230, 221, 221, 0.144);
+        font-size: 18px;
+    }
 }
-
-
-ul a:hover {
-    color: rgb(143, 49, 143);
-    border: 1px solid black;
-    border-radius: 10px;
-    padding:1px 60px  ;
-    background-color: rgba(230, 221, 221, 0.144);
-    font-size: 18px;
-}
-
 
 h2 {
     font-family: "Sekuya", system-ui;
-    color: white;   
+    color: white;
     text-align: center;
     font-size: xx-large;
     margin: 2px;
@@ -89,25 +87,25 @@ h2 {
 
 main {
     padding-top: 0px;
-    background-color:  rgb(36, 34, 34);
+    background-color: rgb(36, 34, 34);
     margin-top: 0;
     margin-bottom: 0;
     align-items: center;
 }
 
-main p{
+main p {
     color: white;
     font-family: "Story Script", sans-serif;
 }
 
 
 #Sobre_o_jogo {
-    display: flex;         
-    align-items: center;  
-    gap: 30px;            
-    padding: 20px;         
-  }
-  
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
 footer {
     background-color: rgb(31, 29, 29);
     border: 2px solid rgb(36, 34, 34);
@@ -125,12 +123,14 @@ footer {
     text-align: center;
 }
 
-audio { padding: 50px;}
-  
+audio {
+    padding: 50px;
+}
+
 
 .data-braba {
     display: flex;
-    align-items: center ;
+    align-items: center;
     justify-content: center;
     text-align: center;
     font-size: 30px;
@@ -139,13 +139,14 @@ audio { padding: 50px;}
 
 
 table {
-    color: white;  
+    color: white;
     border: 1px solid white;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
-td {  background-color:  rgb(46, 38, 38);
-text-align: center;
+td {
+    background-color: rgb(46, 38, 38);
+    text-align: center;
 }
 
 
@@ -155,7 +156,7 @@ text-align: center;
     display: flex;
     justify-content: center;
     font-size: 30px;
-   
+
 }
 
 
@@ -165,7 +166,7 @@ text-align: center;
     background-color: rgb(17, 17, 17);
     border: 1px solid rgb(26, 24, 24);
     border-radius: 2px;
-    border-right: 1px solid white;    
+    border-right: 1px solid white;
 }
 
 th[scope="col"] {
@@ -193,7 +194,7 @@ th[scope="row"] {
     padding-right: 20px;
     padding-left: 20px;
     border-right: 1px solid snow;
-    background-color:  rgb(27, 27, 27);
+    background-color: rgb(27, 27, 27);
 }
 
 .preço {
@@ -209,19 +210,19 @@ th[scope="row"] {
 
 }
 
- a button {
+a button {
     background-color: red;
     color: white;
     font-family: "Story Script", sans-serif;
     letter-spacing: 1px;
-    border:  1px solid rgba(255, 255, 255, 0.452);
+    border: 1px solid rgba(255, 255, 255, 0.452);
     font-size: 13px;
-
-&:hover {
     transition: 1s;
-    font-size: medium;
-    background-color: rgba(255, 0, 0, 0.582);
-    cursor: pointer;
+
+    &:hover {
+        font-size: medium;
+        background-color: rgba(255, 0, 0, 0.582);
+        cursor: pointer;
     }
 }
 
@@ -233,19 +234,19 @@ th[scope="row"] {
     border-bottom: 1px solid white;
 }
 
-form { 
+form {
     display: flex;
-    flex-direction: column;   
-    align-items: center;      
+    flex-direction: column;
+    align-items: center;
     border: 2px solid white;
     border-radius: 10px;
     background-color: rgba(58, 55, 55, 0.486);
     color: white;
     padding-top: 30px;
-    max-width: 600px;         
-    width: 600px;          
-    margin:  auto;
-    
+    max-width: 600px;
+    width: 600px;
+    margin: auto;
+
 }
 
 form h2 {
@@ -253,29 +254,27 @@ form h2 {
 }
 
 .butao_campo {
-   
+
     font-size: 14px;
     text-align: center;
     align-items: center;
     justify-content: center;
-    
-    
-} 
+
+
+}
 
 button {
-    font-family:  "Story Script", sans-serif;
+    font-family: "Story Script", sans-serif;
     letter-spacing: 1px;
     color: white;
     background-color: rgba(255, 99, 71, 0.418);
     padding: 5px 30px 5px 30px;
     border-radius: 5px;
-    
+    transition: 1s;
+
     &:hover {
-        transition: 1s;
         font-size: 18px;
         background-color: rgba(255, 0, 0, 0.582);
         cursor: pointer;
     }
 }
-
-
